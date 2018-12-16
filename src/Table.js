@@ -76,6 +76,7 @@ class Table extends Component {
       ...this.state.data.tempPosts,
       ...this.state.data.tempPosts,
     ];
+    
     this.setState({ data: { ...this.state.data, posts: tempRows } })
   }
 
